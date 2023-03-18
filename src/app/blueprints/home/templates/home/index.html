@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block head %}{% include "home/includes/head.html" %}{% endblock head %}
+
+{% block content -%}
+<main>
+    <h1>¡Bienvenido a Informaticapau!</h1>
+    <span>Comunidad de informática orientada a estudiantes y principiantes.</span>
+    <br>
+    <br>
+    <img id="ipau-logo" src="{{ url_for('static', filename='img/ipau/logo_cuadrado.png') }}" alt="Logo de Informáticapau">
+</main>
+{%- endblock content %}

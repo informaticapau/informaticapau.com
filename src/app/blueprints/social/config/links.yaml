@@ -1,0 +1,31 @@
+rrss: 
+  name: "Redes Sociales"
+  links:
+    Instagram: 
+      url: https://www.instagram.com/informaticapau/
+      logo: https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png
+    Twitter:
+      url:  https://twitter.com/informaticapau
+      logo: ./img/logos/logo_twitter.png
+    GitHub:
+      url: https://github.com/informaticapau
+      logo: https://github.com/fluidicon.png
+    YouTube:
+      url: https://www.youtube.com/@informaticapau
+      logo: https://www.youtube.com/s/desktop/9318de79/img/favicon_144x144.png
+
+comunidad:
+  name: "Comunidad"
+  links:
+    WhatsApp:
+      url: https://chat.whatsapp.com/Jz6dbqz6gug0MGuj3hlsYZ
+      logo: ./img/logos/logo_whatsapp.png
+    Discord:
+      url: https://discord.com/invite/UXZuAvW
+      logo: ./img/logos/logo_discord.png
+    Telegram:
+      url: https://t.me/informaticapau_telegram
+      logo: ./img/logos/logo_telegram.png
+    Signal:
+      url: https://signal.group/#CjQKIKE-DGLyEskhoE3eFYTOu-AWvMUyeY1coRkSTjaGIcL1EhCCf67nbMyquzz1i94Y28Gv
+      logo: ./img/logos/logo_signal.png

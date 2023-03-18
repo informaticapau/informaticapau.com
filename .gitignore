@@ -1,0 +1,4 @@
+*/.venv
+src/Pipfile.lock
+src/requirements.txt
+**/static/css

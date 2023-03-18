@@ -1,0 +1,11 @@
+<nav>
+    {%- set nav_links = {
+        'Home': url_for('home.index'),
+        'Hacking': url_for('hacking.index'),
+        'Redes sociales': url_for('social.index'),
+    }-%}
+    
+    {%- for k,v in nav_links.items() %}
+    <a class="nav-link" href="{{ v }}">{{ k }}</a>
+    {%- endfor %}
+</nav>

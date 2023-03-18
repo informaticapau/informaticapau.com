@@ -1,0 +1,19 @@
+{%- set writeups = [
+('Cibergal', 'Cibergal.png', '2021-11-10_Cibergal.pdf', ['10','11','2021']),
+('DEADFACE', 'DEADFACE_2021.png', '2021-10-15_DEADFACE_CTF.pdf', ['15','10','2021']),
+('DECONSTRUCT.F', 'DECONSTRUCT.F.png', '2021-10-01_DeconstruCT.F.pdf', ['01','10','2021']),
+]-%}
+
+<div class="writeups">
+    {%- for writeup in writeups %}
+    {%- set pdf_url = url_for('hacking.static', filename='pdf/writeups/ctfs/{}'.format(writeup[2])) %}
+    <a class="writeup" href="{{ pdf_url }}">
+        {% set ctf_name = writeup[0] -%}
+        <span class="writeup-title">{{ ctf_name }}</span>
+        {% set ctf_img = url_for('hacking.static', filename='img/writeups/ctfs/{}'.format(writeup[1])) -%}
+        <img class="writeup-img" src="{{ ctf_img }}" alt="{{ ctf_name }} logo">
+        {% set ctf_day,ctf_month,ctf_year = writeup[3][0],writeup[3][1],writeup[3][2] -%}
+        <span class="writeup-date"><time datetime="{{ctf_year}}-{{ctf_month}}-{{ctf_day}}">{{ctf_day}}/{{ctf_month}}/{{ctf_year}}</time></span>
+    </a>
+    {%- endfor %}
+</div>
