@@ -15,4 +15,5 @@ blueprints: list[Blueprint] = __load_blueprints([
     '.home',
     '.hacking',
     '.social',
+    '.webrings'
 ])

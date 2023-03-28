@@ -1,0 +1,12 @@
+community:
+  - name: ArfNet
+    badge: https://arf20.com/FTPServer/ARFNET/88x31.png
+    url: https://arf20.com
+
+  - name: YeroDev
+    badge: https://yero.dev/88x31.png
+    url: https://yero.dev
+
+  - name: weonpollo.xyz
+    badge: https://weonpollo.xyz/webring.png
+    url: https://weonpollo.xyz

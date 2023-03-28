@@ -1,0 +1,8 @@
+{% extends 'head.html' %}
+
+{% block title -%}Web Rings | {{ super() }}{% endblock title %}
+
+{% block style -%}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="{{ url_for('webrings.static', filename='css/webrings.css') }}">
+{%- endblock style %}
