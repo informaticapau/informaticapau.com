@@ -14,7 +14,7 @@
                     <img src="{{ url_for('webrings.web_badge') }}" alt="Link to Informaticapau">
                 </a>
                 {%- for wb in web_badges['community'] %}
-                <a href="{{ wb['url']}}">
+                <a target="_blank" href="{{ wb['url']}}">
                     <img src="{{ wb['badge'] }}" alt="Link to {{ wb['name'] }}">
                 </a>
                 {%- endfor %}
